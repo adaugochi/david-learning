@@ -44,13 +44,12 @@ body {
 }
 
 .head-item {
-    padding-top: 60px;
+    margin-top: 60px;
     text-align: center;
     color: #4E4D4D;
 }
 
 .p-tag-item {
-    padding-top: 30px;
     text-align: center;
     color: #696969;
 }
@@ -68,15 +67,15 @@ a:link {
 }
 
 .box {
+    margin-top: 20px;
     width: 1140px;
-    height: 60px;
-    background-color: #FFFFFF;
+    padding: 15px 30px;
     border-radius: 5px;
     border: 1px solid #C4C4C4;
 }
 
 .box:hover{
-    color: lightskyblue;
+    color: #AD4C4C;
 }
 
 .bag {
@@ -124,6 +123,7 @@ a:link {
 }
 
 .item-process {
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -156,18 +156,20 @@ a:link {
 }
 
 .social {
+    margin-top: 32.5px;
     text-align: center;
 }
 
 .social-1 {
-    margin-right: 14px;
+    margin-right: 30.58px;
 }
 
 .social-2 {
-    margin-left: 14px;
+    margin-left: 30.58px;
 }
 
 .terms-copy {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
