@@ -1,9 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    background-color: #E5E5E5;;
+    background-color: #E5E5E5;
     padding: 0;
     margin: 0;
+    overflow-x: 0;
 }
 
 * {
@@ -49,7 +50,7 @@ body {
     color: #4E4D4D;
 }
 
-.p-tag-item {
+.head-item-text {
     text-align: center;
     color: #696969;
 }
@@ -105,13 +106,13 @@ a:link {
     justify-content: space-between;
 }
 
-.fast-food-1-item {
+.fast-food-item-text {
     font-weight: 500px;
     font-size: 18px;
     color: #AD4C4C;
 }
 
-.fast-food-2-item {
+.fast-food-item-downtext {
     font-weight: 400px;
     font-size: 14px;
     color: #696969;
@@ -122,23 +123,23 @@ a:link {
     text-align: center;
 }
 
-.item-process {
+.item-process-wrapper {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
 
-.item-process-grid {
+.item-process {
     max-width: 25%;
 }
 
-.item-process-1 {
+.item-process-text {
     font-weight: 500px;
     font-size: 25px;
     color: #696969;
 }
 
-.item-process-2 {
+.item-process-downtext {
     font-weight: 400px;
     font-size: 20px;
     color: #A5A5A5;
@@ -149,22 +150,22 @@ a:link {
     padding: 50px 100px;
 }
 
-.contact {
+.footer-contact {
     text-align: center;
     font-weight: 500px;
     font-size: 18px;
 }
 
-.social {
+.social-media {
     margin-top: 32.5px;
     text-align: center;
 }
 
-.social-1 {
+.twitter-logo {
     margin-right: 30.58px;
 }
 
-.social-2 {
+.facebook-logo {
     margin-left: 30.58px;
 }
 
