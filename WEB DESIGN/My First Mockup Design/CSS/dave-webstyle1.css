@@ -1,0 +1,187 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    background-color: #E5E5E5;;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    padding: 50px 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-list-item {
+    padding-right: 50px;
+}
+
+.navbar-list-link {
+    color: #000000;
+}
+
+.navbar-list-btn {
+    border-radius: 5px;
+    border: 1px solid #AD4C4C;
+    color: #AD4C4C;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.head-item {
+    padding-top: 60px;
+    text-align: center;
+    color: #4E4D4D;
+}
+
+.p-tag-item {
+    padding-top: 30px;
+    text-align: center;
+    color: #696969;
+}
+
+.location {
+    padding-top: 400px;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #000000;
+}
+
+a:link {
+    text-decoration: 
+    none;
+}
+
+.box {
+    width: 1140px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+}
+
+.box:hover{
+    color: lightskyblue;
+}
+
+.bag {
+    color: #AD4C4C;
+}
+
+.food {
+    color: #000000;
+    font-weight: bold;
+}
+
+.pick-up {
+    padding-top: 30px;
+}
+
+.fast-food-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    padding: 24px 30px;
+    margin-right: 20px;
+    /* box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, 0.1);     */
+}
+
+.fast-food-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fast-food-1-item {
+    font-weight: 500px;
+    font-size: 18px;
+    color: #AD4C4C;
+}
+
+.fast-food-2-item {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #696969;
+}
+
+.head-item-process {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.item-process {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-process-grid {
+    max-width: 25%;
+}
+
+.item-process-1 {
+    font-weight: 500px;
+    font-size: 25px;
+    color: #696969;
+}
+
+.item-process-2 {
+    font-weight: 400px;
+    font-size: 20px;
+    color: #A5A5A5;
+    text-align: center;
+}
+
+.footer {
+    padding: 50px 100px;
+}
+
+.contact {
+    text-align: center;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-1 {
+    margin-right: 14px;
+}
+
+.social-2 {
+    margin-left: 14px;
+}
+
+.terms-copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms {
+    padding: 0px;
+    display: flex;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #696969;
+}
+
+.copy {
+    font-weight: 400px;
+    font-size: 18px;
+    color: #696969;
+}
